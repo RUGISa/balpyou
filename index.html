@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>私がすきな食べ物、きらいな食べ物</title>
+  <style>
+    * { box-sizing: border-box; }
+    html, body { margin: 0; padding: 0; }
+    body {
+      font-family: "Yu Gothic", "Meiryo", "Noto Sans JP", Arial, sans-serif;
+      background: #f7f3ea;
+      color: #2f3437;
+    }
+    .slide {
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 48px 24px;
+      border-bottom: 1px solid #ddd3c2;
+    }
+    .card {
+      width: min(960px, 92vw);
+      min-height: 520px;
+      background: #ffffff;
+      border-radius: 22px;
+      padding: 56px 64px;
+      box-shadow: 0 18px 36px rgba(61, 54, 42, 0.12);
+      border-top: 12px solid #9aa979;
+    }
+    .title-card {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .label {
+      display: inline-block;
+      align-self: center;
+      padding: 8px 18px;
+      background: #eef2df;
+      color: #536333;
+      border-radius: 999px;
+      font-weight: 700;
+      font-size: 22px;
+      margin-bottom: 28px;
+    }
+    h1 {
+      margin: 0 0 24px;
+      font-size: clamp(40px, 6vw, 68px);
+      line-height: 1.25;
+      color: #263238;
+    }
+    h2 {
+      margin: 0 0 34px;
+      font-size: clamp(34px, 4.5vw, 54px);
+      color: #263238;
+      border-bottom: 2px solid #e3e0d7;
+      padding-bottom: 14px;
+    }
+    p, li {
+      font-size: clamp(23px, 2.5vw, 33px);
+      line-height: 1.75;
+    }
+    p { margin: 0 0 20px; }
+    ul { margin: 12px 0 0; padding-left: 1.3em; }
+    li { margin: 16px 0; }
+    .big {
+      font-weight: 700;
+      color: #65723f;
+      font-size: clamp(28px, 3.2vw, 42px);
+    }
+    .note {
+      margin-top: 28px;
+      padding: 20px 24px;
+      background: #f3f6e9;
+      border-left: 8px solid #9aa979;
+      border-radius: 14px;
+      font-size: clamp(21px, 2.2vw, 29px);
+      line-height: 1.7;
+    }
+    .page {
+      margin-top: 34px;
+      font-size: 16px;
+      color: #8b897f;
+      text-align: right;
+    }
+    @media (max-width: 640px) {
+      .card { padding: 40px 28px; min-height: auto; }
+    }
+  </style>
+</head>
+<body>
+  <section class="slide">
+    <div class="card title-card">
+      <div class="label">発表テーマ</div>
+      <h1>私がすきな食べ物、<br>きらいな食べ物</h1>
+      <p>食べることについて</p>
+      <div class="page">1 / 5</div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="card">
+      <h2>すきな食べ物</h2>
+      <p class="big">特別にすきな食べ物はありません。</p>
+      <p>何を食べても「おいしい」と思うことはあります。</p>
+      <p>でも、「これが一番すきです」と言える食べ物はありません。</p>
+      <div class="page">2 / 5</div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="card">
+      <h2>理由</h2>
+      <p>私は、食べること自体があまり好きではありません。</p>
+      <ul>
+        <li>食べ物を選ぶのが少し面倒です。</li>
+        <li>長い時間をかけて食事をするのも少し苦手です。</li>
+        <li>友だちに聞かれると、よく「何でもいい」と答えます。</li>
+      </ul>
+      <div class="page">3 / 5</div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="card">
+      <h2>きらいな食べ物</h2>
+      <p class="big">特別にきらいな食べ物もありません。</p>
+      <p>苦手な味や食感は少しあります。</p>
+      <p>でも、全然食べられない食べ物はあまりありません。</p>
+      <div class="note">量が多すぎる食べ物や、においが強い食べ物は少し苦手です。</div>
+      <div class="page">4 / 5</div>
+    </div>
+  </section>
+
+  <section class="slide">
+    <div class="card">
+      <h2>まとめ</h2>
+      <p>私にとって、食べ物は楽しみというより、生活に必要なものです。</p>
+      <p>だから、特別にすきな食べ物や、きらいな食べ物はありません。</p>
+      <p>でも、友だちや家族と一緒に食べる時間は大切だと思います。</p>
+      <p class="big">以上です。ありがとうございました。</p>
+      <div class="page">5 / 5</div>
+    </div>
+  </section>
+</body>
+</html>
